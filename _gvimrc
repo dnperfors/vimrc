@@ -1,5 +1,6 @@
 " These option disable several gui options like toolbars and scrollbars
 " to use as much screen as possible
+set guioptions-=e
 set guioptions-=g
 set guioptions-=m
 set guioptions-=r
