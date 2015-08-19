@@ -6,7 +6,7 @@ filetype off
 let g:pathogen_disabled = []
 
 "Load pathogen managed plugins
-call pathogen#infect()
+execute pathogen#infect('bundle/{}', 'bundle_tryout/{}')
 
 syntax on
 filetype plugin indent on
@@ -23,3 +23,7 @@ set tabstop=4
 set softtabstop=4
 
 set relativenumber
+
+if filereadable(expand('~/.vimrc.local'))
+    source ~/.vimrc.local
+endif
