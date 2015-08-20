@@ -16,4 +16,6 @@ Create symlinks:
 
     ln -s ~/vimrc/_vimrc ~/.vimrc
     ln -s ~/vimrc/_gvimrc ~/.gvimrc
-    ln -s ~/vimrc/vim ~/.vim
+    ln -s ~/vimrc/vimfiles ~/.vim
+
+On Windows you can point your %HOME% to the repository directory.
