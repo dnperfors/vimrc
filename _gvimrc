@@ -12,4 +12,6 @@ set guioptions-=T
 " http://stackoverflow.com/questions/4193654/using-vim-warning-style-in-gvim
 set guioptions+=c
 
-au GUIEnter * simalt ~x
+if has("gui_win32")
+    au GUIEnter * simalt ~m
+endif
