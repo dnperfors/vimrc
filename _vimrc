@@ -1,5 +1,5 @@
 set nocompatible
-set encoding=utf-8
+set modelines=0
 
 filetype off
 
@@ -15,6 +15,11 @@ filetype plugin indent on
 set background=dark
 colorscheme solarized
 
+set encoding=utf-8
+set hidden
+set nobackup
+set noswapfile
+
 " Set some default formatting
 set autoindent
 set shiftwidth=4
@@ -23,6 +28,7 @@ set tabstop=4
 set softtabstop=4
 
 set relativenumber
+set laststatus=2
 
 if filereadable(expand('~/.vimrc.local'))
     source ~/.vimrc.local
