@@ -7,3 +7,6 @@
 [submodule "vimfiles/bundle/vim-fugitive"]
 	path = vimfiles/bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "vimfiles/bundle/scratch.vim"]
+	path = vimfiles/bundle/scratch.vim
+	url = https://github.com/ethanmuller/scratch.vim.git
