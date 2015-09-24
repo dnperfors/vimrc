@@ -14,8 +14,6 @@ Update the vim plugins:
 
 Create symlinks:
 
-    ln -s ~/vimrc/_vimrc ~/.vimrc
-    ln -s ~/vimrc/_gvimrc ~/.gvimrc
-    ln -s ~/vimrc/vimfiles ~/.vim
+    ln -s ~/vimrc ~/.vim
 
-On Windows you can point your %HOME% to the repository directory.
+On Windows you can point your %HOME% to the parent of the repository directory.

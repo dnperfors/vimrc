@@ -1,12 +1,12 @@
-[submodule "vimfiles/bundle/vim-colors-solarized"]
-	path = vimfiles/bundle/vim-colors-solarized
+[submodule "bundle/vim-colors-solarized"]
+	path = bundle/vim-colors-solarized
 	url = https://github.com/altercation/vim-colors-solarized.git
-[submodule "vimfiles/bundle/vim-unimpaired"]
-	path = vimfiles/bundle/vim-unimpaired
+[submodule "bundle/vim-unimpaired"]
+	path = bundle/vim-unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
-[submodule "vimfiles/bundle/vim-fugitive"]
-	path = vimfiles/bundle/vim-fugitive
+[submodule "bundle/vim-fugitive"]
+	path = bundle/vim-fugitive
 	url = https://github.com/tpope/vim-fugitive.git
-[submodule "vimfiles/bundle/scratch.vim"]
-	path = vimfiles/bundle/scratch.vim
+[submodule "bundle/scratch.vim"]
+	path = bundle/scratch.vim
 	url = https://github.com/ethanmuller/scratch.vim.git
