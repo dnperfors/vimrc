@@ -13,5 +13,5 @@ set guioptions-=T
 set guioptions+=c
 
 if has('gui_win32')
-    au GUIEnter * simalt ~x
+  au GUIEnter * simalt ~x
 endif
